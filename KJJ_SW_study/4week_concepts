@@ -1,0 +1,11 @@
+API?
+-> API(application programming interface) is a definition of method which two programs conversation.
+If rules about giving and taking data between A and B, we can't process data correctly.
+
+HTTP?
+-> HTTP(hyper text transfer protocol) is basic communication method convey web page from internet
+
+If we make API using HTTP protocol, it called web orient API
+
+HTML?
+-> HTML(hypertext markup language) is a kind of document which web browser show on screen and standard language for web page
