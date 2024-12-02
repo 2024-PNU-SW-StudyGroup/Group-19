@@ -1,0 +1,19 @@
+function explaination
+
+json.dumps(): Changing Python object to JSON string. When we transmit data to web orient API we should change
+Python object(ex: dict) to str
+
+json.loads(): Changing JSON string to Python object
+
+read_json(): Changing JSON string to DataFrame
+
+<6week supplement>
+
+XML is a Language which mostly use to express HTML web pages but it is not proper to transmit API because it is not structural
+"6week supplenent.html" is the example of XML
+
+fromstring(): Changing XML string to Python object
+
+* We can call xml package by importing "xml.etree.ElementTree"
+
+findtext(): checking child element
