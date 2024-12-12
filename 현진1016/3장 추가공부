@@ -1,0 +1,22 @@
+판다스 데이터프레임 돌려보기
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35],
+    "City": ["New York", "Los Angeles", "Chicago"]
+}
+df = pd.DataFrame(data)
+print(df)
+data = [
+    ["Alice", 25, "New York"],
+    ["Bob", 30, "Los Angeles"],
+    ["Charlie", 35, "Chicago"]
+]
+df = pd.DataFrame(data, columns=["Name", "Age", "City"])
+print(df)
+import numpy as np
+
+data = np.array([[1, 2, 3], [4, 5, 6]])
+df = pd.DataFrame(data, columns=["A", "B", "C"])
+print(df)

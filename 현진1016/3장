@@ -1,0 +1,28 @@
+데이터 정제 
+-데이터 랭글링 : 데이터 정제 과정+ 데이터 분석 및 머신러닝에 적합한 형태로 데이터 변환 과정 
+-원소별 비교: 판다스의 데이터 프레임 과 인덱스를 하나의 값과 비교 하면 데이터프레임과 인덱스에 있는 모든 원소와 비교
+-불리언 배열: T/F
+-numpy: 파이썬의 다차원 배열 
+
+핵심함수와 메서드
+-DataFrame.drop() : 데이터프레임의 행이나 열을 삭제.
+-DataFrame.dropna() : 누락된 값이 포함된 행이나 열을 삭제.
+-DataFrame.duplicated() : 중복된 행을 찾아 불리언 값으로 표시한 배열을 반환.
+-DataFrame.groupby() : 데이터프레임의 행을 그룹으로 모음.
+-DataFrame.sum() : 행 또는 열을 기준으로 합계를 계산.
+-DataFrame.set_index() : 지정한 열을 인덱스로 설정.
+-DataFrame.reset_index() : 데이터프레임의 인덱스를 재설정.
+-DataFrame.update() : 다른 데이터프레임을 사용해 원본 데이터프레임의 값을 업데이트.다른 데이터 프레임에 있는 NaN은 업데이트에서 제외.
+-DataFrame.equals() : 른 데이터프레임과 동일한 원소를 가졌는지 비교.두 데이터프레임이 동일하 면 True, 그렇지 않으면 False를 반환.
+
+
+NaN : 판다스에서 누락된 값 표시하는 기호.
+정규 표현식 : 문자열에서 패턴을 찾고 대체하기 위한 규칙의 모음.
+
+DataFrame.info() 
+DataFrame.isna() 
+DataFrame.astype()
+DataFrame.frame.filna() 
+DataFrame.replace() 
+Series.str.contains() 
+DataFrame.gt() 
