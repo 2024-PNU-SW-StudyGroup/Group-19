@@ -1,0 +1,35 @@
+Technologies for Data scientists
+    1. Programming technology
+    2. mathmatics and statistics
+    3. Domain knowledge (knowledge about business problem)
+
+Data analyst's work process
+    In broad sense, it includes data collecting, data processing and modeling.
+    In a narrow sense, it includes descriptive statistics(기술 통계), EDA(exploratory data analysis, 탐색적 데이터 분석)
+    and hypothesis testing(가설 검정)
+
+Data mining and machinelearning
+Data mining is a process which is extract pattern or knowledge from data and
+machine learning is a technology which is making a software that learn rules automatically from data
+-> They look similar but there are some differences between them.
+    1. Patterns from datamining are used by human. However patterns from machinelearning are used by computer
+    2. Comparatively, we can know the datamining algorithm more apparently than machinelearning
+
+Python package we will use.
+1. numpy
+2. pandas
+3. matplotlib
+4. scipy
+5. scikit-learn
+
+What is encoding, UTF-8, EUC-KR?
+-> encoding means texts transform in binary which computer can understand.
+and UTF-8 and EUC-KR are one of the encoding methods
+
+What is pandas?
+-> pandas is a python package which store CSV files into dataframe form
+Dataframe is two-dimensional array(2차원 배열) which consist of row(행, 가로줄) and column(열, 가로줄).
+we can't use different data type in same row.
+
+What is Series?
+-> We can define series as a row of dataframe easily.
